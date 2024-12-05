@@ -1,0 +1,38 @@
+{
+  "name": "gestion-utilisateur-api",
+  "version": "1.0.0",
+  "description": "Connexion sécurisée à une API permettant d'accéder à la liste des utilisateurs enregistrés",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fBoinali/gestion-utilisateur-api.git"
+  },
+  "keywords": [
+    "authentification",
+    "nodejs",
+    "express",
+    "mongodb",
+    "api",
+    "backend"
+  ],
+  "author": "BOINALI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fBoinali/gestion-utilisateur-api/issues"
+  },
+  "homepage": "https://github.com/fBoinali/gestion-utilisateur-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
