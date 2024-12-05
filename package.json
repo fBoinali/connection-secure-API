@@ -4,7 +4,7 @@
   "description": "Connexion sécurisée à une API permettant d'accéder à la liste des utilisateurs enregistrés",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
